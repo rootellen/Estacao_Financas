@@ -141,16 +141,12 @@ class FinancaTableViewCell: UITableViewCell {
     @IBOutlet weak var lbCategoria: UILabel!
     @IBOutlet weak var lbValor: UILabel!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
     func prepare(with financa: Financas.FinancaResponse.Get) {
@@ -171,7 +167,5 @@ class FinancaTableViewCell: UITableViewCell {
         }
         lbCategoria.text = categoria
         lbValor.text = "R$ \(String(format: "%.02f", financa.valor))"
-        
     }
-
 }
