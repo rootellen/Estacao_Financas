@@ -47,7 +47,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Finances" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLr-jd-LU3">
-                    <rect key="frame" x="87" y="76" width="201.5" height="30"/>
+                    <rect key="frame" x="0.0" y="76" width="375" height="30"/>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -77,9 +77,11 @@
                 <constraint firstItem="mLr-jd-LU3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="XpN-O0-BPD"/>
                 <constraint firstItem="hak-dq-ZDD" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="36" id="XzB-Cm-Wa6"/>
                 <constraint firstItem="131-p2-Xem" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="36" id="YC6-6i-FS4"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mLr-jd-LU3" secondAttribute="trailing" id="a0X-ut-uyS"/>
                 <constraint firstItem="ss4-7P-5eB" firstAttribute="top" secondItem="mLr-jd-LU3" secondAttribute="bottom" constant="64" id="fcQ-cm-cDi"/>
                 <constraint firstItem="hak-dq-ZDD" firstAttribute="top" secondItem="fSs-MW-Pb5" secondAttribute="bottom" constant="41" id="iQN-5f-XrO"/>
                 <constraint firstItem="fSs-MW-Pb5" firstAttribute="leading" secondItem="qH8-82-q5T" secondAttribute="leading" id="mGl-LI-Lgx"/>
+                <constraint firstItem="mLr-jd-LU3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="nIw-qD-uUk"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="131-p2-Xem" secondAttribute="trailing" constant="36" id="ntE-1B-lF7"/>
                 <constraint firstItem="qH8-82-q5T" firstAttribute="leading" secondItem="131-p2-Xem" secondAttribute="leading" id="rwb-bo-H5d"/>
                 <constraint firstItem="fSs-MW-Pb5" firstAttribute="top" secondItem="qH8-82-q5T" secondAttribute="bottom" constant="22" id="vbe-fj-SNr"/>

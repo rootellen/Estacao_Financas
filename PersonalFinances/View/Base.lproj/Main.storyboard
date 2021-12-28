@@ -11,7 +11,7 @@
         <!--Estação Finanças-->
         <scene sceneID="Ubq-Gw-gtg">
             <objects>
-                <tableViewController id="8tm-rL-bj9" customClass="FinancaTableViewController" customModule="PersonalFinances" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="8tm-rL-bj9" customClass="FinancasViewController" customModule="PersonalFinances" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="eLx-Jv-5Ev">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +33,7 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
-                                        <segue destination="qea-2G-49t" kind="show" identifier="novaFinanca" id="5Gk-IK-e0G"/>
+                                        <action selector="btNovaFinanca:" destination="8tm-rL-bj9" eventType="touchUpInside" id="Og2-Jj-BOh"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meu Saldo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUx-wn-ovL">
@@ -80,7 +80,7 @@
                                         <segment title="Despesas"/>
                                     </segments>
                                     <connections>
-                                        <action selector="changeFilter:" destination="8tm-rL-bj9" eventType="valueChanged" id="pfs-Ov-DCs"/>
+                                        <action selector="changeFilter:" destination="8tm-rL-bj9" eventType="valueChanged" id="hL2-rZ-hKZ"/>
                                     </connections>
                                 </segmentedControl>
                             </subviews>
@@ -157,6 +157,7 @@
                         <outlet property="lbSaldo" destination="4r5-vb-x7H" id="Ihu-ob-zJM"/>
                         <outlet property="scFiltro" destination="eW7-ZR-Ce1" id="fI9-ZF-OOH"/>
                         <outlet property="tableView" destination="eLx-Jv-5Ev" id="5CS-43-ot7"/>
+                        <segue destination="qea-2G-49t" kind="show" identifier="novaFinanca" id="8Yp-pS-kHj"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rna-jD-xi7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
