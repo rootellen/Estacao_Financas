@@ -119,7 +119,7 @@ class FinancasViewController: UITableViewController, FinancasDisplayLogic, NovaF
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FinancaTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! FinancasTableViewCell
         
         var filter: [Financas.FinancaResponse.Get] = []
         if scFiltro.selectedSegmentIndex == 0 {
