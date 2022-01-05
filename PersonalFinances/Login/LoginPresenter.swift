@@ -19,6 +19,7 @@ protocol LoginPresentationLogic {
 class LoginPresenter: LoginPresentationLogic {
     
     weak var viewController: LoginDisplayLogic?
+    
 
     // MARK: Parse and calc respnse from LoginInteractor and send simple view model to LoginViewController to be displayed
 

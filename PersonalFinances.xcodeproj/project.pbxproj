@@ -33,6 +33,7 @@
 		03DD1B562779E9900094FC1A /* NovaFinancaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DD1B502779E9900094FC1A /* NovaFinancaViewController.swift */; };
 		03DD1B572779E9900094FC1A /* NovaFinancaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DD1B512779E9900094FC1A /* NovaFinancaInteractor.swift */; };
 		03DD1B67277A53D30094FC1A /* ServiceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DD1B66277A53D30094FC1A /* ServiceRepository.swift */; };
+		03FBB163277CCFB9005ED78B /* FinancasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBB162277CCFB9005ED78B /* FinancasTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		03DD1B502779E9900094FC1A /* NovaFinancaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaFinancaViewController.swift; sourceTree = "<group>"; };
 		03DD1B512779E9900094FC1A /* NovaFinancaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovaFinancaInteractor.swift; sourceTree = "<group>"; };
 		03DD1B66277A53D30094FC1A /* ServiceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRepository.swift; sourceTree = "<group>"; };
+		03FBB162277CCFB9005ED78B /* FinancasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancasTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				039A24C3276CC185003082B8 /* FinancasModels.swift */,
 				039A24C4276CC185003082B8 /* FinancasViewController.swift */,
 				039A24C5276CC185003082B8 /* FinancasInteractor.swift */,
+				03FBB162277CCFB9005ED78B /* FinancasTableViewCell.swift */,
 			);
 			path = Financas;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				03DD1B532779E9900094FC1A /* NovaFinancaWorker.swift in Sources */,
 				0383381E27467EDD00177087 /* AppDelegate.swift in Sources */,
 				03DD1B562779E9900094FC1A /* NovaFinancaViewController.swift in Sources */,
+				03FBB163277CCFB9005ED78B /* FinancasTableViewCell.swift in Sources */,
 				03DD1B572779E9900094FC1A /* NovaFinancaInteractor.swift in Sources */,
 				03DD1B542779E9900094FC1A /* NovaFinancaRouter.swift in Sources */,
 				039A24CB276CC185003082B8 /* FinancasInteractor.swift in Sources */,
